@@ -11,7 +11,7 @@
 #include <memory.h>
 #include <unistd.h>
 #include <fcntl.h>
-#define int long long
+#define int int64_t
 
 char *p, *lp, // current position in source code
      *data;   // data/bss pointer
